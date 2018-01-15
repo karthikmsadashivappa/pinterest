@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.4'
+gem 'paperclip', '~> 5.1'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
