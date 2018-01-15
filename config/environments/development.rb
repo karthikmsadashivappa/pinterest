@@ -50,6 +50,10 @@ Rails.application.configure do
 
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
+  
+  #Paperclip know to look there by adding that directory to its path.
+  Paperclip.options[:command_path] = "/usr/local/bin/"
+
 
   #needed for devise gem
 
